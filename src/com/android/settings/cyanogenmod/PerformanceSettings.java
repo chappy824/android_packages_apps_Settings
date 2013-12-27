@@ -96,16 +96,4 @@ public class PerformanceSettings extends SettingsPreferenceFragment {
 
         return true;
     }
-
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (newValue != null) {
-            if (preference == mPerfProfilePref) {
-                Settings.System.putString(getActivity().getContentResolver(),
-                        Settings.System.PERFORMANCE_PROFILE, String.valueOf(newValue));
-                setCurrentPerfProfileSummary();
-                return true;
-            }
-        }
-        return false;
-    }
 }

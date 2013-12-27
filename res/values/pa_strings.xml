@@ -32,6 +32,9 @@
     <string name="qs_pulldown_summary">Allows to use the left or right side of the status bar to open the QuickSettings</string>
     <string name="statusbar_network_summary">Enables the network speed to appear in the Statusbar</string>
 
+    <!-- Anonymous Statistics #CM -->
+    <string name="anonymous_statistics_title">CyanogenMod statistics</string>
+
     <!-- Volume Key Cursor Control -->
     <string name="volume_key_cursor_control_title">Volume Key Cursor Control</string>
     <string name="volume_key_cursor_control_off">Off</string>
